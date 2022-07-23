@@ -1,9 +1,15 @@
 
+html {
+	background-color: white;
+}
 
 body {
+	width: 70%;
 	font-family:  "Happy Monkey";
 	font-size: 22px;
-	background: rgba(45, 145, 97, 0.3);
+	border:  5px dotted forestgreen;
+	border-radius:  20px;
+	
 }
 
 .header, .caption, .centered {
@@ -11,10 +17,8 @@ body {
 }
 
 .main {
-	width:  70%;
 	margin:  0 auto;
-	border:  5px dotted forestgreen;
-	border-radius:  20px;
+	background-color: antiquewhite;
 }
 
 .logo {
